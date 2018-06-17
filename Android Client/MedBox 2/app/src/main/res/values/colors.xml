@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#c4c4c4</color>
+    <color name="colorPrimary">#3c7cc1</color>
+    <color name="colorPrimaryDark">#8297ab</color>
+    <color name="colorAccent">#17da55</color>
+    <color name="colorPlanHeader">#33beff</color>
+    <color name="colorPlanStart">#940c4993</color>
+    <color name="colorPlanEnd">#9417447b</color>
+
+    <!--for floating button-->
+    <color name="button_normal">#ff80bd01</color>
+    <color name="button_pressed">#ff48bd06</color>
+    <color name="button_ripple">#99ffffff</color>
+</resources>

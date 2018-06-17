@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="?attr/actionBarSize"
+    android:fitsSystemWindows="true">
+
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/create_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add_black_24dp"
+        app:fab_colorNormal="@color/button_normal"
+        app:fab_colorPressed="@color/button_pressed"
+        app:fab_colorRipple="@color/button_ripple" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/custom_list_item">
+
+            <include
+                layout="@layout/fragment_plan_header"></include>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:background="@color/white"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="10.0sp"
+                android:id="@+id/plan_list">
+
+
+            </ListView>
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>
