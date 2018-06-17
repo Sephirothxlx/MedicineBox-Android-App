@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: medbox_server :: Spsringboot ￥ﾮﾞ￧ﾎﾰ Restful ￦ﾜﾍ￥
+ ﾊﾡ￯ﾼﾌ￥ﾟﾺ￤ﾺﾎ HTTP / JSON ￤ﾼﾠ￨ﾾﾓ
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Sephiroth
+Implementation-Vendor-Id: springboot
+Build-Jdk: 1.8.0
+Implementation-URL: http://projects.spring.io/spring-boot/springboot-r
+ estful/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
